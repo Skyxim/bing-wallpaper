@@ -6,7 +6,7 @@ import requests
 
 urlReg = re.compile(r"id=(.+?)_(.+?)_([\d]+x[\d]+)\.jpg")
 host = "cn.bing.com"
-folder = "./wallpager"
+folder = "./wallpapers"
 
 
 class Image:
